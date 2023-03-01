@@ -7,6 +7,7 @@ function MoviePlaylist() {
 
   const dispatch = useDispatch();
   const moviePlaylist = useSelector((state) => {
+    console.log(state);
     return state.movies;
   });
 
